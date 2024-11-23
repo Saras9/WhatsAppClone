@@ -1,0 +1,75 @@
+body{
+    background-color: #FCF5EB;
+   
+}
+.login{
+    background-color: white;
+    padding: 13px 35px;
+    border-radius: 25px;
+    border-width: thin;
+    font-size: 16px;
+    justify-content: end;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+    transition: width 5s;
+    transition-timing-function: ease;
+
+}
+.download{
+    background-color: #25d366;
+    padding: 13px 35px;
+    border-radius: 23px;
+    border-width: thin;
+    font-size: 16px;
+    justify-content: end;
+}
+.download:hover{
+    background-color: black;
+    color: white;
+    transition: width 5s;
+    transition-timing-function: ease;
+
+}
+.navbar-nav >li{
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+.navbar-nav > li a{
+    color: black;
+}
+.image{
+    position: relative;
+}
+.text{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 12%;
+    top: 40%;
+    padding-left: 50px;
+}
+.h1{
+    font-weight:500;
+    font-size: 80px;
+}
+.msgimages{
+    position: absolute; 
+    width: 30%;
+}
+.learnmore{
+    text-decoration:none; 
+    text-underline-offset: 8px;
+    color: black;
+    font-size: large;
+}
+.learnmore :hover{
+    color:#25d366;
+}
+.learnmore.fa-solid fa-chevron-right :hover{
+    color:#25d366;
+}
